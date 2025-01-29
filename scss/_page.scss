@@ -92,14 +92,23 @@
 				width: 50px;
 			}
 		}
-		.dive_img{
-		.dive_i{
+		.dive_img {
 			position: relative;
-		}
-		.dive_2{
-			position: absolute;
-			margin-right: 100px;
-		}
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.dive_i {
+				width: 100%;
+				height: 100%;
+			}
+			.dive_2 {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				width: 95%;
+				height: 95%;
+			}
 		}
 	}
 }
