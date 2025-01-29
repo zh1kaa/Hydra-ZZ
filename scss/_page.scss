@@ -93,9 +93,13 @@
 			}
 		}
 		.dive_img{
-		position: relative;
-		position: absolute;
-		margin: 0;
+		.dive_i{
+			position: relative;
+		}
+		.dive_2{
+			position: absolute;
+			margin-right: 100px;
+		}
 		}
 	}
 }
